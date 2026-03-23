@@ -2,6 +2,7 @@
   "name": "validacion-productos",
   "version": "1.0.0",
   "description": "App fullstack para validar productos de venta online por impulso",
+  "license": "MIT",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
