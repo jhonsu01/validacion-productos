@@ -1,3 +1,4 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/jhonsu01/validacion-productos)
 # Validación de Productos
 
 App fullstack para evaluar productos de venta online por impulso. Evalúa cada producto contra **17 criterios** organizados en 3 categorías (Decisivo, Obligatorios, Recomendados) y calcula un porcentaje de aptitud automáticamente.
