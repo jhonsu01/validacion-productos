@@ -13,9 +13,10 @@ App fullstack para evaluar productos de venta online por impulso. Evalúa cada p
 
 ```bash
 npm install
+```
+```bash
 npm start
 ```
-
 La app estará disponible en `http://localhost:3000`
 
 ## Estructura
