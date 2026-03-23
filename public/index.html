@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Validación de Productos</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-title">Validación de Productos</div>
+  <div style="display:flex;gap:8px;align-items:center">
+    <button class="btn-theme" id="btnTheme" title="Cambiar tema">🌙</button>
+    <button class="btn-add" id="btnAdd">＋ Agregar</button>
+  </div>
+</div>
+
+<div class="stats-row">
+  <div class="stat"><div class="stat-val" id="statTotal">0</div><div class="stat-lbl">Total</div></div>
+  <div class="stat"><div class="stat-val green" id="statHigh">0</div><div class="stat-lbl">Alta<br>aptitud</div></div>
+  <div class="stat"><div class="stat-val yellow" id="statMid">0</div><div class="stat-lbl">Aptitud<br>media</div></div>
+  <div class="stat"><div class="stat-val red" id="statFail">0</div><div class="stat-lbl">No<br>aptos</div></div>
+</div>
+
+<div class="product-strip-wrap">
+  <div class="product-strip" id="productStrip"></div>
+</div>
+
+<div class="card-area" id="cardArea"></div>
+
+<div class="nav-bar">
+  <button class="nav-btn" id="btnPrev">← Ant.</button>
+  <div class="nav-counter">
+    <strong id="navCurrent">—</strong>
+    <span id="navName"></span>
+  </div>
+  <button class="nav-btn" id="btnNext">Sig. →</button>
+</div>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-sheet">
+    <div class="modal-handle"></div>
+    <div class="modal-title">Nuevo producto</div>
+    <input class="modal-input" type="text" id="modalName" placeholder="Nombre del producto…">
+    <input class="modal-input" type="text" id="modalId" placeholder="ID (opcional)">
+    <div class="modal-actions">
+      <button class="btn-cancel" id="btnCancel">Cancelar</button>
+      <button class="btn-confirm" id="btnConfirm">Agregar</button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
